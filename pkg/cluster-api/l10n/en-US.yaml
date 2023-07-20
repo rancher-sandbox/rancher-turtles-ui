@@ -1,0 +1,4 @@
+capi:
+  menuLabels:
+    dashboard: Dashboard
+    config: Configuration
