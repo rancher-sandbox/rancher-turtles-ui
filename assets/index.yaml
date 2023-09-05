@@ -12,12 +12,12 @@ entries:
       catalog.cattle.io/ui-component: plugins
     apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-07-10T13:25:55.788354799Z"
+    created: "2023-09-05T12:34:33.630133966Z"
     description: cluster-api plugin
-    digest: bef4f503d87b70630c7647c605f3c7b387f46fdbda1fbe354b280fc6550dbe73
+    digest: a90a7aea1bb258bd3d8e89b1986efa497e503f2e389eff19cd696099d9bdafa7
     name: cluster-api
     type: application
     urls:
-    - assets/cluster-api/cluster-api-0.1.0.tgz
+    - cluster-api/cluster-api-0.1.0.tgz
     version: 0.1.0
-generated: "2023-07-10T13:25:55.78722239Z"
+generated: "2023-09-05T12:34:33.629190265Z"
