@@ -1,5 +1,6 @@
 import { importTypes } from '@rancher/auto-import';
 import { IPlugin } from '@shell/core/types';
+import capiRouting from './routing/capi-routing';
 
 // Init the package
 export default function(plugin: IPlugin): void {
@@ -11,4 +12,8 @@ export default function(plugin: IPlugin): void {
 
   // Load a product
   plugin.addProduct(require('./product'));
+
+  // Add Vue Routes
+  plugin.addRoutes(capiRouting);
+
 }

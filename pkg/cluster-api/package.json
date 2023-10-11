@@ -1,6 +1,6 @@
 {
   "name": "cluster-api",
-  "description": "cluster-api plugin",
+  "description": "Cluster API extension",
   "version": "0.1.0",
   "private": false,
   "rancher": true,
